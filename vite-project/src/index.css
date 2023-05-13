@@ -1,0 +1,12 @@
+body {
+    overflow: hidden;
+    height: 100%;
+    overflow: auto;
+}
+/* @media screen and (max-width:992px) {
+    body{
+        height: 100%;
+        overflow: auto;
+    }
+    
+} */

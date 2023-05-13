@@ -1,0 +1,64 @@
+.youtubeLogo {
+width: 90px;
+height: 25px;
+
+}
+.header {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+}
+.header-logos{
+    display: flex;
+    align-items: center;
+    column-gap: 28px;
+}
+.formSearch {
+width:  500px;
+background: #EBEBEB;
+opacity: 0.3;
+border-radius: 22px;
+border: 1px solid gray;
+padding: 12px 0 12px 10px ;
+}
+.iconsWrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-icons {
+    display: flex;
+    column-gap: 50px;
+    margin-right: 10px;
+}
+.header-icon{
+    opacity: 0.24;
+}
+.avatar-icon {
+    display: none;
+}
+@media screen and (max-width:992px){
+    .headerHamburger {
+        display: none;
+    }
+    .header-icons{
+        display: none;
+    }
+    .avatar-icon {
+        display: block;
+    }
+}
+@media screen and (max-width:750px){
+    .header{
+        column-gap: 20px;
+    }
+.formSearch{
+    width: 200px;
+}
+}
+@media screen and (max-width:420px){
+    .formSearch{
+        max-width: 400px;
+    }
+}
