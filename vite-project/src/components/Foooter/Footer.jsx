@@ -20,9 +20,11 @@ const Footer = () => {
     <h4 className='footerItemText'>Trending</h4>
     </div>
 
-    <div className="footerItem">
-    <RxAvatar size='20px'/>
-    <h4 className='footerItemText'>Registration</h4>
+    <div className="sidebarItem">
+  <Link className='regLink' to={'/register'}>
+  <RxAvatar size='20px'/>
+    <h4 className='sidebarItemText'>Registration</h4>
+  </Link>
     </div>
 
     <div className="footerItem">

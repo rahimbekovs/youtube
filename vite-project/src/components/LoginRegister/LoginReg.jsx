@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { signInWithEmailAndPassword } from "firebase/auth";
+
 import firebase from "../../firebase.js";
 
 import { AiOutlineEye } from "react-icons/ai";
